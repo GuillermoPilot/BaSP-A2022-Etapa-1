@@ -1,3 +1,10 @@
+aside,
+header,
+main,
+footer { 
+  height: 900px;
+}
+
 /* Aside */
 
 aside{
@@ -51,6 +58,42 @@ aside{
     width: 15px;
 }
 
+/* Header */
 
+header{
+    background-image: url(../assets/header.png);
+    background-size: cover;
+}
+
+#headertext{    
+    color: white;
+   position: absolute;
+   width: 400px;
+   height: 900px;   
+   backdrop-filter: blur(3px);
+   background-color: rgb(21, 16, 16, 0.5);
+   text-align: left;  
+   margin-left: 250px;   
+}
+
+#headertext>h1{
+    font-size: 40px;
+    margin-left: 22px;
+    margin-top: 70px;
+}
+
+#headertext>h2{
+    margin-top: 20px;
+    margin-left: 22px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#headertext>p{
+    padding-top: 40px;
+    margin-left: 22px;
+    font-size: 16px;   
+    color: rgba(227, 207, 207, 0.9);
+}
 
 
