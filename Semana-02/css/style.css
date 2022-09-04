@@ -46,6 +46,7 @@ aside{
     padding-top: 200px;
     font-size: 11px;
     color: red;
+    text-decoration: underline;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -95,5 +96,52 @@ header{
     font-size: 16px;   
     color: rgba(227, 207, 207, 0.9);
 }
+
+/* Main */
+
+main>section>h2{
+    margin-top: 100px;
+    margin-bottom: 83px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;    
+    color: rgb(0, 0, 0);
+}
+
+main>section>p{   
+    text-align: center;
+    padding-left: 208px;
+    padding-right: 96px;
+    margin-bottom: 20px;
+}
+
+.textgreen{
+    color: rgb(41, 120, 41);
+}
+
+/* Footer */
+
+footer{
+    width: 1440px;
+    height: 176px;
+    background-color: #AACE9B;    
+    text-align: center; 
+}
+
+footer>p{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-right: 200px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+footer>a{    
+    margin-right: 10px;
+    text-align: center;
+    padding-right: 10px;     
+}
+
+
 
 
