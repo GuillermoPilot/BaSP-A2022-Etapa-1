@@ -96,7 +96,15 @@ header{
 #header-text>h1{
     margin-left: 22px;
     margin-top: 70px;
+    padding-top: 150px;
     font-size: 40px;
+}
+
+.underline-tracgenix{    
+    width: 370px; 
+    height: 2px;   
+    margin-left: 22px;    
+    background: #AACE9B;
 }
 
 #header-text>h2{
@@ -237,6 +245,44 @@ main>section>div>p{
 
 /*---------Funcionalites------------*/
 
+#funcionalities{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;    
+    color: rgb(0, 0, 0);
+}
+
+#div-box{
+    display: inline-block;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+#div-box-right{
+    display: inline-block;
+    width: 500px;
+    margin-left: 200px;
+    margin-bottom: 70px;
+}
+
+#func-h4{    
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#func-p{      
+    font-size: 15px;  
+    margin-left: 170px;  
+}
+
+#func-img{
+    float: left;
+    margin-right: 20px;
+}
 
 /*------------More-info--------------*/
 
