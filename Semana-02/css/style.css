@@ -1,6 +1,6 @@
 header,
 main,
-footer { 
+footer {     
   margin-left: 152px;
 }
 
@@ -54,6 +54,14 @@ aside{
     margin-top: 20px;    
 }
 
+.direction{
+    display: inline-block;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 20px;    
+
+}
+
 
 #aside-contact{
     padding-top: 200px;
@@ -65,7 +73,7 @@ aside{
 }
 
 #aside-contact>img{
-    float: left;
+    float: left;    
 }
 
 .contact-size{
@@ -73,20 +81,21 @@ aside{
 }
 
 .email-size{
-    width: 15px;
+    width: 15px;    
 }
 
 /* Header */
 
 header{
-    background-image: url(../assets/header.png);
-    background-size: cover;    
+    overflow: auto;
+    background-image: url(../assets/header.png);           
 }
 
 #header-text{   
    width: 400px;
    height: 900px;
-   margin-left: 250px;   
+   margin-left: 250px;
+   margin-top: -100px;   
    backdrop-filter: blur(3px);
    background-color: rgb(21, 16, 16, 0.5);
    text-align: left;   
@@ -144,7 +153,7 @@ main>section>p{
     padding-right: 100px;
     margin-bottom: 20px;
     margin-left: -140px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -159,7 +168,8 @@ main>section>div>p{
 }
 
 .text-green{
-    color: rgb(41, 120, 41);
+    font-weight: 500;
+    color: rgb(41, 120, 41);    
 }
 
 .underline{
@@ -256,15 +266,15 @@ main>section>div>p{
 #div-box{
     display: inline-block;
     width: 500px;
-    margin-left: 150px;
+    margin-left: 80px;
     margin-bottom: 70px;
 }
 
 #div-box-right{
     display: inline-block;
     width: 500px;
-    margin-left: 200px;
-    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px;    
 }
 
 #func-h4{    
@@ -353,7 +363,7 @@ select{
 
 textarea{
     display: block;
-    width: 900px;
+    width: 1030px;
     height: 200px;
     margin-top: 10px;
     margin-left: 100px;
@@ -363,8 +373,7 @@ textarea{
     width: 230px;
     height: 48px;
     margin-left: 100px;
-    font-size: 20px;
-    background-color: #AACE9B;
+    font-size: 20px;    
 }
 
 #submit-img{
@@ -375,19 +384,25 @@ button{
     display: inline-block;
 }
 
-.cancel-icon{   
-   margin-right: 10px;
-   margin-top: 5px;  
-   width: 15%;    
+#cancel-icon{   
+   margin-right: 10px;      
+   vertical-align: middle;      
 }
 
 #reset{
     display: inline-block;
-    width: 177px;
+    width: 160px;
     height: 48px;
     margin-top: 10px;
-    margin-left: 500px;    
-    font-size: 20px;
+    margin-left: 640px;       
+    font-size: 20px;    
+}
+
+#submit:hover{
+    background-color:  #AACE9B;
+}
+
+#reset:hover{
     background-color: #F13312;
 }
 
